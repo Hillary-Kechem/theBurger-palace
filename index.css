@@ -17,16 +17,20 @@ span{
 }
 .logo{
     float: left;
+    display: flex;
+    margin-left: 0;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    
 }
 .navbar ul{
     display: flex;
     justify-content: space-around;
+    float: right;
 }
 .navbar li{
     padding: 25px;
@@ -52,6 +56,7 @@ nav{
     margin-right: 6%;
     margin-left: 5%;
     padding-top: 200px;
+    
 }
 .landpage p{
     margin-top: 50px;
@@ -74,22 +79,29 @@ nav{
     font-size: 20px;
     text-align: center;
     border-radius: 15px;
-    height: 250px;
+    height: 350px;
     width: 300px;
 }
 #menu0{
-    height: 450px;
+    height: 400px;
     margin-top: -80px;
     padding-top: 75px;
 }
 .menu1{
-    margin-top: 120px;
+    margin-top: 250px;
 }
 .menu1 h2{
     font-size: 30px;
     text-align: center;
 }
-.menu2{
+.one{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.two{
     margin: 0 10%;
     display: flex;
     justify-content: space-around;
@@ -160,4 +172,10 @@ footer li{
     display: flex;
     justify-content: space-between;
     margin: 10px;
+}
+.content{
+    display: flex;
+}
+.homepage{
+    padding-left: 400px;
 }
