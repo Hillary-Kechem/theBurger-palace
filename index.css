@@ -2,6 +2,10 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.background{
+    background: linear-gradient( 110deg, white 60%, yellow 40%);
+    height: 650;
+}
 span{
     color: #F6B400;
 }
@@ -18,7 +22,8 @@ span{
 .logo{
     float: left;
     display: flex;
-    margin-left: 0;
+    margin-left: 0px;
+    margin-top: 20px;
 }
 
 nav{
