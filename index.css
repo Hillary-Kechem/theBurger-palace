@@ -157,7 +157,7 @@ footer li{
     list-style: none;
 }
 .foot{
-    
+    display: flex;
     justify-content: space-between;
     margin: 10px;
 }
